@@ -12,6 +12,7 @@
 
                 Console.WriteLine(cal.FirstDayOfSchool(birthdate));
                 Console.WriteLine(cal2.FirstDayOfSchool(birthdate));
+                Console.WriteLine(cal.FirstBirthdayAtSchool(birthdate));
             }
             
         }
@@ -48,12 +49,16 @@
         public int FirstBirthdayAtSchool(int birthdate)
         {
             int schoolstart = FirstDayOfSchool(birthdate);
-            int birthday = (schoolstart / 10000) * 10000 + birthdate % 10000;
+            int year = schoolstart / 10000;
 
-            if (birthdate % 10000 / 100 == 2 || birthdate % 100000)
+            if (birthdate % 10000 == 229)
             {
-                
+                while (year % 4 != 0 || (year % 100 == 0 && year % 400 != 0))
+                {
+                    year++;
+                }
             }
+            return year * 10000 + (birthdate % 10000);
         }
 
 
