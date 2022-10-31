@@ -7,12 +7,13 @@
             Console.WriteLine("Birthdate: ");
             if (int.TryParse(Console.ReadLine(), out int birthdate))
             {
-                SchoolCalender cal = new SchoolCalender(6, 9, 1);
-                SchoolCalender cal2 = new SchoolCalender(5, 9, 1);
+                SchoolCalender cal1 = new SchoolCalender(6, 9, 1);
+                SchoolCalender cal2 = new JulianSchoolCalendar(6, 9, 1);
 
-                Console.WriteLine(cal.FirstDayOfSchool(birthdate));
+                Console.WriteLine(cal1.FirstDayOfSchool(birthdate));
                 Console.WriteLine(cal2.FirstDayOfSchool(birthdate));
-                Console.WriteLine(cal.FirstBirthdayAtSchool(birthdate));
+                Console.WriteLine(cal1.FirstBirthdayAtSchool(birthdate));
+                Console.WriteLine(cal2.FirstBirthdayAtSchool(birthdate));
             }
 
         }
@@ -29,6 +30,11 @@
             this.month = month;
             this.day = day;
             this.age = age;
+        }
+
+        public virtual bool isLeapYear(int year)
+        {
+            return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
         }
 
         public int FirstDayOfSchool(int birthdate)
@@ -53,15 +59,26 @@
 
             if (birthdate % 10000 == 229)
             {
-                while (year % 4 != 0 || (year % 100 == 0 && year % 400 != 0))
+                while (!isLeapYear(year))
                 {
                     year++;
                 }
             }
             return year * 10000 + (birthdate % 10000);
         }
+    }
 
+    class JulianSchoolCalendar : SchoolCalender
+    {
+        public JulianSchoolCalendar(int age, int month, int day) : base(age, month, day)
+        {
 
+        }
+
+        public override bool isLeapYear(int year)
+        {
+            return year % 4 == 0;
+        }
 
     }
 }
