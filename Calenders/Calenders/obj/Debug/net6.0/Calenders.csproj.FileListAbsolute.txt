@@ -1,0 +1,15 @@
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\bin\Debug\net6.0\Calenders.exe
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\bin\Debug\net6.0\Calenders.deps.json
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\bin\Debug\net6.0\Calenders.runtimeconfig.json
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\bin\Debug\net6.0\Calenders.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\bin\Debug\net6.0\Calenders.pdb
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\obj\Debug\net6.0\Calenders.csproj.AssemblyReference.cache
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\obj\Debug\net6.0\Calenders.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\obj\Debug\net6.0\Calenders.AssemblyInfoInputs.cache
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\obj\Debug\net6.0\Calenders.AssemblyInfo.cs
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\obj\Debug\net6.0\Calenders.csproj.CoreCompileInputs.cache
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\obj\Debug\net6.0\Calenders.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\obj\Debug\net6.0\refint\Calenders.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\obj\Debug\net6.0\Calenders.pdb
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\obj\Debug\net6.0\Calenders.genruntimeconfig.cache
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\Calenders\Calenders\obj\Debug\net6.0\ref\Calenders.dll
