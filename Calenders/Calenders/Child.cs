@@ -18,5 +18,8 @@ namespace Calendars
 
         public override string ToString() => 
             _name + " born on " + _birthdate;
+
+        public Date GetFirstCelebrationAt(SchoolSystem school) =>
+            school.GetBegining(this).GetFirstDayOccurence(_birthdate);
     }
 }
