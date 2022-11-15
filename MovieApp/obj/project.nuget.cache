@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WNuts7kd5EKx/nxj4HpheeS/M4tZ89IFGsSGMvqQhrRnMWsYxvHXAQfMI6v8Ru+wkOaqOcnJxLaH+iw4nzYPOQ==",
+  "dgSpecHash": "DsdiUEuhmiNyXtgM2Sr24rpJwE/W3vxq6oonikZOIt3HIGsRQ3skAElB2aAMqlZK1Nz5iFPmrT2dvOtDJMr+Tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\csharp\\MovieApp\\MovieApp.csproj",
+  "projectFilePath": "c:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\csharp\\MovieApp\\MovieApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elifs\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\elifs\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",

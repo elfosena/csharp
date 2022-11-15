@@ -9,11 +9,8 @@ using ShopApp.Entities;
 
 namespace ShopApp.DataAccess.Concrete.EfCore
 {
-    public class EfCoreProductDal : EFcoreGenericRepository<Product, ShopContext>, IProductDal
+    public class EfCoreCategoryDal : EFcoreGenericRepository<Category, ShopContext>, ICategoryDal
     {
-        public IEnumerable<Product> GetPopularProducts()
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }
