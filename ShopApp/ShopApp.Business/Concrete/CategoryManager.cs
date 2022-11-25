@@ -19,12 +19,12 @@ namespace ShopApp.Business.Concrete
 
 		public void Create(Category category)
 		{
-			throw new NotImplementedException();
+			_categoryDal.Create(category);
 		}
 
 		public void Delete(Category category)
 		{
-			throw new NotImplementedException();
+			_categoryDal.Delete(category);
 		}
 
 		public List<Category> GetAll()
@@ -32,9 +32,14 @@ namespace ShopApp.Business.Concrete
 			return _categoryDal.GetAll();
 		}
 
+		public Category GetById(int id)
+		{
+			return _categoryDal.GetById(id);
+		}
+
 		public void Update(Category category)
 		{
-			throw new NotImplementedException();
+			_categoryDal.Update(category);
 		}
 	}
 }

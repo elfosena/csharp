@@ -47,13 +47,13 @@ internal class Program
         app.MapControllerRoute(
             name: "adminProducts",
             pattern: "admin/products",
-            defaults: new { controller = "Admin", action = "Index" }
+            defaults: new { controller = "Admin", action = "ProductList" }
             );
 
         app.MapControllerRoute(
             name: "adminProducts",
             pattern: "admin/products/{id?}",
-            defaults: new { controller = "Admin", action = "Edit" }
+            defaults: new { controller = "Admin", action = "EditProduct" }
             );
 
 
