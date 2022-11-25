@@ -1,0 +1,17 @@
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\bin\Debug\net6.0\ShopApp.Business.deps.json
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\bin\Debug\net6.0\ShopApp.Business.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\bin\Debug\net6.0\ShopApp.Business.pdb
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\bin\Debug\net6.0\ShopApp.DataAccess.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\bin\Debug\net6.0\ShopApp.Entities.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\bin\Debug\net6.0\ShopApp.Entities.pdb
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\bin\Debug\net6.0\ShopApp.DataAccess.pdb
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\obj\Debug\net6.0\ShopApp.Business.csproj.AssemblyReference.cache
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\obj\Debug\net6.0\ShopApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\obj\Debug\net6.0\ShopApp.Business.AssemblyInfoInputs.cache
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\obj\Debug\net6.0\ShopApp.Business.AssemblyInfo.cs
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\obj\Debug\net6.0\ShopApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\obj\Debug\net6.0\ShopApp.Business.csproj.CopyComplete
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\obj\Debug\net6.0\ShopApp.Business.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\obj\Debug\net6.0\refint\ShopApp.Business.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\obj\Debug\net6.0\ShopApp.Business.pdb
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.Business\obj\Debug\net6.0\ref\ShopApp.Business.dll

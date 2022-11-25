@@ -8,7 +8,7 @@ using ShopApp.Entities;
 
 namespace ShopApp.DataAccess.Abstract
 {
-    internal interface ICategoryDal : IRepository<Category>
+    public interface ICategoryDal : IRepository<Category>
     {
     }
 }

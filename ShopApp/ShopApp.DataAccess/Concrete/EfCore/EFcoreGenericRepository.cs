@@ -26,12 +26,12 @@ namespace ShopApp.DataAccess.Concrete.EfCore
         {
             using (var context = new TContext())
             {
-                context.Set<T>().Add(entity);
+                context.Set<T>().Remove(entity);
                 context.SaveChanges();
             }
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null)
+        public List<T> GetAll(Expression<Func<T, bool>> filter = null)
         {
             using (var context = new TContext())
             {
