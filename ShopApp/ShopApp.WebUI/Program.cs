@@ -1,10 +1,14 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using ShopApp.Business.Abstract;
 using ShopApp.Business.Concrete;
 using ShopApp.DataAccess.Abstract;
 using ShopApp.DataAccess.Concrete.EfCore;
+using ShopApp.WebUI.Identity;
 
 internal class Program
 {
@@ -19,7 +23,41 @@ internal class Program
         builder.Services.AddScoped<ICategoryDal, EfCoreCategoryDal>();
         builder.Services.AddScoped<ICategoryService, CategoryManager>();
         builder.Services.AddControllersWithViews();
-        // builder.Services.AddMvc().SetCompatibilityVersion(version: Microsoft.AspNetCore.Mvc.CompatibilityVersion);
+        builder.Services.AddDbContext<ApplicationIdentityDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
+        builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+            .AddEntityFrameworkStores<ApplicationIdentityDbContext>()
+            .AddDefaultTokenProviders();
+
+        builder.Services.Configure<IdentityOptions>(options =>
+        {
+            options.Password.RequireDigit = true;
+            options.Password.RequireLowercase = true;
+            options.Password.RequiredLength = 6;
+            options.Password.RequireNonAlphanumeric = true;
+            options.Password.RequireUppercase = true;
+
+            options.Lockout.MaxFailedAccessAttempts = 5;
+            options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+            options.Lockout.AllowedForNewUsers = true;
+
+            // options.User.AllowedUserNameCharacters = "";
+            options.User.RequireUniqueEmail = true;
+
+            options.SignIn.RequireConfirmedEmail = false;
+            options.SignIn.RequireConfirmedPhoneNumber = false;
+        });
+
+        builder.Services.ConfigureApplicationCookie(options =>
+        {
+            options.Cookie.Name = "ShopApp.Security.Cookie";
+            options.Cookie.HttpOnly = true;
+            options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+            options.LoginPath = "/account/login";
+            options.LogoutPath = "/account/logout";
+            options.AccessDeniedPath = "/account/accessdenied";
+            options.SlidingExpiration = false;
+        });
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -34,6 +72,7 @@ internal class Program
 
         app.UseRouting();
         app.UseAuthorization();
+        app.UseAuthentication();
         app.MapControllerRoute(
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");

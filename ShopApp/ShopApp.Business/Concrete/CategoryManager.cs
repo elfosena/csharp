@@ -37,9 +37,20 @@ namespace ShopApp.Business.Concrete
 			return _categoryDal.GetById(id);
 		}
 
+		public Category GetByIdWithProducts(int id)
+		{
+			return _categoryDal.GetByIdWithProducts(id);
+		}
+
 		public void Update(Category category)
 		{
 			_categoryDal.Update(category);
 		}
+
+		//ask dilek
+		void ICategoryService.DeleteFromCategory(int categoryId, int productId)
+		{
+            _categoryDal.DeleteFromCategory(categoryId, productId);
+        }
 	}
 }
