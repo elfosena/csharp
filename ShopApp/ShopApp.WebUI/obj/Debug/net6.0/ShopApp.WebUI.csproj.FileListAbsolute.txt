@@ -93,3 +93,14 @@ C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\obj\Debug\n
 C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\obj\Debug\net6.0\scopedcss\projectbundle\ShopApp.WebUI.bundle.scp.css
 C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\obj\Debug\net6.0\ShopApp.WebUI.csproj.CopyComplete
 C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\obj\Debug\net6.0\ShopApp.WebUI.genruntimeconfig.cache
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\bin\Debug\net6.0\SendGrid.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\bin\Debug\net6.0\StarkbankEcdsa.dll
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\obj\Debug\net6.0\ShopApp.WebUI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\obj\Debug\net6.0\staticwebassets\msbuild.ShopApp.WebUI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\obj\Debug\net6.0\staticwebassets\msbuild.build.ShopApp.WebUI.props
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ShopApp.WebUI.props
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ShopApp.WebUI.props
+C:\Users\elifs\OneDrive\Belgeler\GitHub\csharp\ShopApp\ShopApp.WebUI\obj\Debug\net6.0\staticwebassets.pack.json

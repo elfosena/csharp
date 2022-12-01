@@ -14,7 +14,6 @@ namespace ShopApp.WebUI.Controllers
             _productService = productService;
         }
 
-        [HttpGet, Route("/Shop/Details/{id:int}")]
         public IActionResult Details(int? id)
         {
             if (id == null)
@@ -33,7 +32,6 @@ namespace ShopApp.WebUI.Controllers
             });
         }
 
-        [HttpGet(), Route("/products/{category?}")]
         public IActionResult List(string category, int page = 1)
         {
             const int pageSize = 3;

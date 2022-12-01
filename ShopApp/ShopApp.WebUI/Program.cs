@@ -8,9 +8,12 @@ using ShopApp.Business.Abstract;
 using ShopApp.Business.Concrete;
 using ShopApp.DataAccess.Abstract;
 using ShopApp.DataAccess.Concrete.EfCore;
+using ShopApp.WebUI.EmailService;
 using ShopApp.WebUI.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
-internal class Program
+
+public class Program
 {
     private static void Main(string[] args)
     {
@@ -18,6 +21,7 @@ internal class Program
 
         // Add services to the container.
         builder.Services.AddRazorPages();
+        builder.Services.AddMvcCore();
         builder.Services.AddScoped < IProductDal, EfCoreProductDal >();
         builder.Services.AddScoped<IProductService, ProductManager>();
         builder.Services.AddScoped<ICategoryDal, EfCoreCategoryDal>();
@@ -27,6 +31,8 @@ internal class Program
         builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
             .AddEntityFrameworkStores<ApplicationIdentityDbContext>()
             .AddDefaultTokenProviders();
+
+        builder.Services.AddTransient<IEmailSender, EmailSender>();
 
         builder.Services.Configure<IdentityOptions>(options =>
         {
@@ -43,19 +49,24 @@ internal class Program
             // options.User.AllowedUserNameCharacters = "";
             options.User.RequireUniqueEmail = true;
 
-            options.SignIn.RequireConfirmedEmail = false;
+            options.SignIn.RequireConfirmedEmail = true;
             options.SignIn.RequireConfirmedPhoneNumber = false;
         });
 
         builder.Services.ConfigureApplicationCookie(options =>
         {
-            options.Cookie.Name = "ShopApp.Security.Cookie";
-            options.Cookie.HttpOnly = true;
-            options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
             options.LoginPath = "/account/login";
             options.LogoutPath = "/account/logout";
             options.AccessDeniedPath = "/account/accessdenied";
-            options.SlidingExpiration = false;
+            options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+            options.SlidingExpiration = true;
+            options.Cookie = new CookieBuilder
+            {
+                HttpOnly = true,
+                Name = ".ShopApp.Security.Cookie",
+                SameSite = SameSiteMode.Strict
+            };
+
         });
 
         var app = builder.Build();
@@ -66,13 +77,13 @@ internal class Program
             app.UseExceptionHandler("/Error");
         }
         SeedDatabase.Seed();
+        // SeedIdentity.Seed().Wait; ????
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();
 
         app.UseRouting();
-        app.UseAuthorization();
-        app.UseAuthentication();
+
         app.MapControllerRoute(
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
@@ -96,7 +107,8 @@ internal class Program
             );
 
 
-
+        app.UseAuthorization();
+        app.UseAuthentication();
         app.MapControllers();
         app.MapRazorPages();
         app.Run();
