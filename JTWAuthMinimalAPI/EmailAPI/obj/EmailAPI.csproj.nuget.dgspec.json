@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\EmailAPI\\EmailAPI\\EmailAPI.csproj": {}
+    "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\csharp\\JTWAuthMinimalAPI\\EmailAPI\\EmailAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\EmailAPI\\EmailAPI\\EmailAPI.csproj": {
+    "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\csharp\\JTWAuthMinimalAPI\\EmailAPI\\EmailAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\EmailAPI\\EmailAPI\\EmailAPI.csproj",
+        "projectUniqueName": "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\csharp\\JTWAuthMinimalAPI\\EmailAPI\\EmailAPI.csproj",
         "projectName": "EmailAPI",
-        "projectPath": "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\EmailAPI\\EmailAPI\\EmailAPI.csproj",
+        "projectPath": "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\csharp\\JTWAuthMinimalAPI\\EmailAPI\\EmailAPI.csproj",
         "packagesPath": "C:\\Users\\elifs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\EmailAPI\\EmailAPI\\obj\\",
+        "outputPath": "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\csharp\\JTWAuthMinimalAPI\\EmailAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elifs\\AppData\\Roaming\\NuGet\\NuGet.Config",

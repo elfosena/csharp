@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oqG/s2LFhMPonqA9tO/6zEzYEUkhDmuz0HvkC5704xcCDGOQTPRN1FShXAaTyJw/BfWQhJgv7Hp2FMvn/f5spQ==",
+  "dgSpecHash": "oMwtGPWNN5N9oTekR5g1HrddefHvgzZD+rKXCFbtBcMtfW/U4H739Rb3PG5vuNsU4Kc3N+lRHC55K3B7m+jK2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\EmailAPI\\EmailAPI\\EmailAPI.csproj",
+  "projectFilePath": "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\csharp\\JTWAuthMinimalAPI\\EmailAPI\\EmailAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elifs\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.11\\microsoft.aspnetcore.authentication.jwtbearer.6.0.11.nupkg.sha512",
     "C:\\Users\\elifs\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
