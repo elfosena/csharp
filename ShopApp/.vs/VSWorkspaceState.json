@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ShoApp.Entities",
+    "\\ShopApp.Business",
+    "\\ShopApp.Business\\Abstract",
+    "\\ShopApp.Business\\Concrete",
+    "\\ShopApp.DataAccess",
+    "\\ShopApp.DataAccess\\Concrete",
+    "\\ShopApp.DataAccess\\Concrete\\EfCore"
+  ],
+  "SelectedNode": "\\ShoApp.Entities\\Category.cs",
+  "PreviewInSolutionExplorer": false
+}

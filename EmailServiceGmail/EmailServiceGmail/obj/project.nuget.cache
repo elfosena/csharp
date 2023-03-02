@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "B+bCDfNY89r2H9s7VtP8AvYyP+qMQdvJ5Fm6rXPAhs1u4SAbN7Sy1vusUwTEuEN+EKt1CHJvpAslIVgpWeO0Gw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elifs\\OneDrive\\Belgeler\\GitHub\\csharp\\EmailServiceGmail\\EmailServiceGmail\\EmailServiceGmail.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elifs\\.nuget\\packages\\mailkit\\3.4.3\\mailkit.3.4.3.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\mimekit\\3.4.3\\mimekit.3.4.3.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0\\system.security.cryptography.pkcs.6.0.0.nupkg.sha512",
+    "C:\\Users\\elifs\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

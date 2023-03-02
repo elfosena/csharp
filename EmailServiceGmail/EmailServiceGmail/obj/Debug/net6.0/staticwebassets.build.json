@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ViQ88PYACrY2A0UYmCoNAj+oc1vXJ+2TZGE7o6WJnWk=",
+  "Source": "EmailServiceGmail",
+  "BasePath": "_content/EmailServiceGmail",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
